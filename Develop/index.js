@@ -29,6 +29,13 @@ const questions = [
     },
 
     {
+        type:"checkbox",
+        name: "license",
+        message: "What license are you using?",
+        choices: ["MIT", "IBM", "Mozilla", "Apache 2.0", "ISC" ],
+    },
+
+    {
         type:"input",
         name: "contribution",
         message: "What are the contribution guidelines?",

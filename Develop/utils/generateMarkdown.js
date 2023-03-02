@@ -27,6 +27,10 @@ ${data.installation}
 
 ${data.usage} 
 
+## License
+
+${data.license} 
+
 
 ## Contribution Guidelines
 
