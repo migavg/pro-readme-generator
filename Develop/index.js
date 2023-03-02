@@ -32,7 +32,7 @@ const questions = [
         type:"checkbox",
         name: "license",
         message: "What license are you using?",
-        choices: ["MIT", "IBM", "Mozilla", "Apache 2.0", "ISC" ],
+        choices: ["MIT", "Mozilla", "Apache 2.0", "ISC" ],
     },
 
     {
@@ -72,7 +72,7 @@ function init() {
 inquirer.prompt(questions)
 .then(function (answers){
     console.log(answers)
-    writeToFile("sample/README.md", generateMarkDown(answers));
+    writeToFile("../sample/README.md", generateMarkDown(answers));
 });
 
 };
