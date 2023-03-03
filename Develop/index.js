@@ -29,10 +29,10 @@ const questions = [
     },
 
     {
-        type:"checkbox",
+        type:"list",
         name: "license",
         message: "What license are you using?",
-        choices: ["MIT", "Mozilla", "Apache 2.0", "ISC" ],
+        choices: ["MIT", "Mozilla", "Apache 2.0", "ISC", "None" ],
     },
 
     {
@@ -50,7 +50,7 @@ const questions = [
     {
         type:"input",
         name: "github",
-        message: "What is your GitHub?",
+        message: "What is your GitHub link?",
     },
 
     {
